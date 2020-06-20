@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #1e272e;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 20px 2%;
+    position: fixed;
+
+    z-index: 2;
+
+}
+
+header .logo {
+    height: 50px;
+    right: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: auto;
+    font-family: 'Karla', sans-serif;
+}
+
+
+.nav-list {
+    list-style: none;
+
+
+}
+
+.nav-list li {
+    display: inline-block;
+    padding-left: 50px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+li a .active,
+li a:hover {
+    border: 1px solid white;
+    transition: .5s;
+}
+
+
+
+
+
+section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px 100px;
+    height: 100vh;
+}
+
+section .bg {
+    margin-top: 100px;
+    max-width: 700px;
+    float: left;
+}
+
+#home .container h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 50px;
+    color: #d63031;
+}
+
+#home {
+    height: auto;
+    position: relative;
+    top: 50px;
+
+
+}
+
+#home .container {}
+
+span {
+    line-height: 50px;
+
+    color: white;
+    text-transform: uppercase;
+    background-color: #2f3542;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#home .container h1,
+p {
+    font-family: 'Play', sans-serif;
+    color: #57606f;
+}
+
+span:hover {
+    background-color: black;
+}
+
+/* animasi */
+.container .ml15 {
+    font-weight: 800;
+    font-size: 3.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.container .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+}
